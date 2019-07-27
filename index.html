@@ -5,8 +5,85 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Pete's Surf Shop</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#"><img src="img/shop-logo.jpg" alt=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Sale</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Mens</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Womens</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Boards</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Wetsuit</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Beach Gear</a>
+                </li>
+
+                
+            </ul>
+            
+            <button class="btn btn-outline-success my-2 my-sm-0 icon-button" type="submit"><img src="img/search-icon.png" alt=""></button>
+            <button class="btn btn-outline-success my-2 my-sm-0 icon-button" type="submit"><img src="img/shopping-cart.png" alt=""></button>
+        </div>
+        </nav>
+
+        <div class="jumbotron jumbotron-fluid grad">
+            <div class="container">
+                <h1 class="display-4">It's Surf Season.</h1>
+                <h2>Are you ready?</h2>
+                <p class="lead">Here are Pete’s Surf Shop we prepare you for summer in the most important way possible - By providing you with the best gear for this surf season</p>
+                <a class="btn btn-primary btn-lg hero-button" href="#" role="button">Shop Now</a>
+            </div>
+        </div>
+
+        <div class="featured-products">
+            <h2 class="center-text">Featured Products</h2>
+            <div class="flex">
+                <div class="card" style="width: 18rem;">
+                    <img src="img/surboard@2x.jpg" class="card-img-top" alt="surf board">
+                    <div class="card-body">
+                        <h5 class="card-title">Surf Boards</h5>
+                        <p class="card-text">We have the hottest boards at the lowest prices. Come check it out!</p>
+                        <a href="#" class="btn btn-primary">Shop Now</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="img/websuit@2x.jpg" class="card-img-top" alt="wetsuits">
+                    <div class="card-body">
+                        <h5 class="card-title">Wetsuits</h5>
+                        <p class="card-text">Trying to stay warm when the water is cool? Look no further.</p>
+                        <a href="#" class="btn btn-primary">Shop Now</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="img/beach@2x.jpg" class="card-img-top" alt="beach">
+                    <div class="card-body">
+                        <h5 class="card-title">Beach Gear</h5>
+                        <p class="card-text">Items for when you want to relax after a long day of riding the waves</p>
+                        <a href="#" class="btn btn-primary">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer"></div>
 </body>
 </html>

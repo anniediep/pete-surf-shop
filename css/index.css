@@ -1,2 +1,100 @@
-body {
+*{
+    box-sizing: border-box;
 }
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #0B4451;
+}
+
+.btn {
+    background-color: #0B4451;
+    border-radius: 0px;
+}
+
+.display-4 {
+    font-weight: 600;
+    font-size: 70px;
+}
+
+nav {
+    border-bottom: 5px solid #0B4451 !important;
+}
+
+.btn-outline-success{
+    color: transparent;
+}
+
+.card {
+    max-width: 553px;
+    margin: 70px 3%;
+}
+
+.card img {
+    height: auto;
+    margin: 10px;
+    max-height: 150px;
+    object-fit: contain;
+    width: auto;
+}
+
+.card-body {
+    text-align: center;
+    padding: 10px 25px;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer {
+    background-color: black;
+    height: 50px;
+    max-width: 100%;
+}
+
+.hero {
+    float: left;
+    max-width: 100%;
+}
+
+.hero-button {
+    width: 30%;
+    height: 70px;
+}
+
+.icon-button {
+    background-color: transparent !important;
+    border-color: transparent;
+}
+
+.icon-button img {
+    width: 23px;
+}
+
+.lead {
+    width: 40%;
+}
+
+.jumbotron {
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255,0,0,0)),url("/img/surfer-dude.jpg");
+    background-size: 100% auto;
+    height: 80vh;
+}
+
+.navbar ul {
+    margin-left: auto;
+}
+
+.nav-link {
+    color: #0B4451 !important;
+    font-weight: 700;
+}
+
