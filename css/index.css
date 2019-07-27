@@ -84,7 +84,7 @@ nav {
 }
 
 .jumbotron {
-    background-image: linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255,0,0,0)),url("/img/surfer-dude.jpg");
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255,0,0,0)),url("../img/surfer-dude.jpg");
     background-size: 100% auto;
     height: 80vh;
 }
